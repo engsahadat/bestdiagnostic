@@ -21,7 +21,7 @@ export function Nav() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="fixed top-0 inset-x-0 z-50 backdrop-blur-xl bg-background/80 border-b border-border/60"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-20 sm:h-24 md:h-28 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-15 sm:h-15 md:h-18 flex items-center justify-between">
           <Link
             to="/"
             className="flex items-center group"
@@ -29,7 +29,7 @@ export function Nav() {
             <img
             src={logo}
             alt="BEST Health Diagnostics logo"
-            className="h-14 sm:h-20 md:h-24 w-auto object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-sm"
+            className="h-15 sm:h-20 md:h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-sm"
           />
         </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium">

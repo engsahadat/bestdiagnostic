@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="bg-foreground text-background pt-20 pb-8 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
         <div className="md:col-span-2">
-          <img src={logo} alt="Best Health Diagnostic" className="h-12 sm:h-14 md:h-16 w-auto object-contain" />
+          <img src={logo} alt="Best Health Diagnostic" className="h-15 sm:h-15 md:h-20 w-auto object-contain" />
           <p className="mt-4 text-sm opacity-70 max-w-sm">
             A medical check-up center, specially for foreign passengers and everyday diagnostic care.
           </p>
