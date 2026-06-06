@@ -11,7 +11,6 @@ const links = [
   { label: "Gallery", to: "/gallery" },
   { label: "Contact", to: "/contact" },
 ] as const;
-
 export function Nav() {
   const [open, setOpen] = useState(false);
   return (
